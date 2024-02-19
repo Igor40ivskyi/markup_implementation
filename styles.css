@@ -1,0 +1,106 @@
+*, *::after, *::before{
+    margin:0
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aeaeae;
+}
+
+.content {
+    width: 80vmin;
+    height: 34vmin;
+    background-color: #f8f8f8;
+    border-radius: 27px;
+    padding: 40px;
+    padding-top: 80px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-mail-container {
+    height: 11vmin;
+    width: 11vmin;
+    background-color: #bdcdf9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-mail-container > span {
+    color: #6454c4;
+    font-size: 6vmin;
+}
+
+.icon-close-container {
+
+}
+
+.icon-close-container > span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5a5a5a;
+}
+
+.text-container {
+    font-family: Bahnschrift;
+    width: 70%;
+    height: 70%;
+}
+
+.text-container > h2 {
+    font-size: 2.2rem;
+}
+
+.text-container > p {
+    font-size: 1.8rem;
+    color: #7a7a7a;
+    margin-top: 1.5vmin;
+    margin-bottom: 4vmin;
+    line-height: 1.8;
+}
+
+.text-container > .date-block {
+    font-size: 1.6rem;
+    color: #c0bfbf;
+}
+
+.bottom-section {
+    padding-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons-container {
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-container button {
+    font-size: 2rem;
+    outline: none;
+    border: 2px solid #cfcece;
+    padding: 10px;
+    padding-right: 22px;
+    padding-left: 22px;
+    border-radius: 15px;
+    background-color: inherit;
+    transition: 200ms;
+}
+
+.buttons-container button:hover {
+    cursor: pointer;
+}
+
+.buttons-container button:active {
+    background-color: black;
+    color: whitesmoke;
+}
